@@ -12,6 +12,34 @@
 "xsd": "http://www.w3.org/2001/XMLSchema#", 
 "xsi": "http://www.w3.org/2001/XMLSchema-instance"
 }, 
+"^bogus_timestamp": "2015-01-28T10:11:39.741058", 
+"^ot:agents": {
+"agent": [
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator", 
+"@name": "api.opentreeoflife.org/validate", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.4a", 
+"invocation": {
+"commandLine": [], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.9"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
+}, 
+"^ot:annotationEvents": {
+"annotation": []
+}, 
 "^ot:curatorName": "Rick Ree", 
 "^ot:dataDeposit": {
 "@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S10149"
@@ -684,6 +712,7 @@
 "^ot:branchLengthMode": "ot:substitutionCount", 
 "^ot:curatedType": "Bayesian 50% majority-rule consensus", 
 "^ot:inGroupClade": "node3", 
+"^ot:rootNodeId": "node1", 
 "edgeBySourceId": {
 "node1": {
 "edge2": {
@@ -2819,13 +2848,13 @@
 "@otu": "otu44", 
 "^ot:ottTaxonName": "Myodocarpus"
 }
-}, 
-"^ot:rootNodeId": "node1"
+}
 }, 
 "tree2": {
 "@xsi:type": "nex:FloatTree", 
 "^ot:branchLengthMode": "ot:substitutionCount", 
 "^ot:curatedType": "ML bootstrap consensus", 
+"^ot:rootNodeId": "node252", 
 "edgeBySourceId": {
 "node252": {
 "edge253": {
@@ -4977,8 +5006,7 @@
 "@otu": "otu127", 
 "^ot:ottTaxonName": "Spinacia"
 }
-}, 
-"^ot:rootNodeId": "node252"
+}
 }
 }
 }
